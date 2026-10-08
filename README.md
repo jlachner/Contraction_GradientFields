@@ -612,3 +612,7 @@ incompatible targets.
 ## Author
 
 Johannes Lachner
+
+## License
+
+Released under the [MIT License](LICENSE).
