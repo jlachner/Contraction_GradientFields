@@ -4,7 +4,7 @@
 
 ![Scene 4: a string of starts contracts inside the certified region](docs/images/scene4.png)
 
-This repository is an interactive companion to *Contraction Theory Tutorial #5* by Johannes Lachner.
+This repository is an interactive tutorial by Johannes Lachner.
 It animates the first-order gradient flow of a planar two-link arm on its configuration torus and
 makes one claim visible:
 
@@ -242,7 +242,7 @@ f(q^*) = 0 \iff \partial V(q^*) = 0,
 \qquad
 \mathrm{Hess}_G V(q^*) = \partial^2 V(q^*),
 \qquad
-\text{rates at } q^*: \ \operatorname{eig}\bigl(G^{-1}\partial^2 V(q^*)\bigr).
+\text{rates at } q^*: \ \mathrm{eig}\bigl(G^{-1}\partial^2 V(q^*)\bigr).
 ```
 
 $`G`$ is invertible, so it drops out of the equilibrium condition, and the $`\Gamma`$ term multiplies
@@ -449,7 +449,7 @@ L(t) = \int_0^1 \lVert\partial_s q(t,s)\rVert_G\,ds,
 \qquad
 \frac{dL}{dt} \le -\Bigl(\min_s \lambda_{\min}\Bigr) L,
 \qquad
-\operatorname{dist}_G\bigl(q_a(t), q_b(t)\bigr) \le L(t) \le L(0)\,e^{-\int_0^t \min_s\lambda_{\min}\,d\tau}.
+\mathrm{dist}_G\bigl(q_a(t), q_b(t)\bigr) \le L(t) \le L(0)\,e^{-\int_0^t \min_s\lambda_{\min}\,d\tau}.
 ```
 
 Each small piece $`\partial_s q\,ds`$ is a scene-3 nudge, and a path is never shorter than the
