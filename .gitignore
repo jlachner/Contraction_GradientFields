@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Output of "Export video" / --export-all (curated copies live in docs/videos)
+exports/
+
+# Slide decks are not part of the repository
+*.pptx
+*.key
